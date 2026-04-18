@@ -22,8 +22,7 @@ VNC
 2) x11vnc -storepasswd
 Store this in ~/.vnc/passwd if prompted.
 3) x11vnc -forever -usepw -display :0
-sudo nano ~/.bashrc
-goto bottom
-hit enter 2 times
-Past x11vnc -forever -usepw -display :0
-Save and reboot 
+4) sudo nano ~/.bashrc
+  4a) goto bottom
+    4b)hit enter 2 times
+5) Past x11vnc -forever -usepw -display :0
